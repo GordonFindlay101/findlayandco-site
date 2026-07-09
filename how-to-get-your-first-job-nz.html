@@ -62,7 +62,7 @@
   "@type": "BreadcrumbList",
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://findlayandco.co.nz/" },
-    { "@type": "ListItem", "position": 2, "name": "Insights", "item": "https://findlayandco.co.nz/insights.html" },
+    { "@type": "ListItem", "position": 2, "name": "Careers Guides", "item": "https://findlayandco.co.nz/careers-guides.html" },
     { "@type": "ListItem", "position": 3, "name": "How to Get Your First Job in New Zealand", "item": "https://findlayandco.co.nz/how-to-get-your-first-job-nz.html" }
   ]
 }
@@ -86,7 +86,7 @@ a{color:var(--accent-deep);}
 .fc-nav-links a{color:rgba(255,255,255,0.82);text-decoration:none;font-size:0.92rem;font-weight:500;transition:color 0.2s;}
 .fc-nav-links a:hover{color:var(--accent);}
 
-.art-hero{background:linear-gradient(150deg,#142743 0%,#0B1728 100%);color:#fff;}
+.art-hero{position:relative;color:#fff;background-color:#0B1728;background-image:linear-gradient(100deg,rgba(9,20,36,0.95) 0%,rgba(9,20,36,0.80) 42%,rgba(9,20,36,0.40) 100%),url('hero-first-job-nz.jpg');background-size:cover;background-position:center right;}
 .art-hero-inner{max-width:880px;margin:0 auto;padding:60px 40px 54px;position:relative;}
 .crumbs{font-size:0.82rem;letter-spacing:0.04em;color:rgba(255,255,255,0.65);margin-bottom:22px;}
 .crumbs a{color:rgba(255,255,255,0.78);text-decoration:none;}
@@ -159,13 +159,17 @@ a{color:var(--accent-deep);}
   .art-hero-inner,.art-wrap{padding-left:22px;padding-right:22px;}
   .art-hero h1{font-size:1.95rem;}
 }
+
+.art-figure{position:relative;left:50%;margin-left:-50vw;width:100vw;margin:48px 0;}
+.art-figure img{display:block;width:100%;height:clamp(240px,36vw,430px);object-fit:cover;}
+.art-figure figcaption{max-width:760px;margin:12px auto 0;padding:0 40px;font-size:0.86rem;color:#7a8794;text-align:center;font-style:italic;}
 </style>
 </head>
 <body>
 
 <nav class="fc-nav">
   <div class="fc-nav-inner">
-    <a href="/" class="fc-nav-logo" aria-label="Findlay & Co home"><img src="/logo-icon-light.png" alt="Findlay & Co"></a>
+    <a href="/" class="fc-nav-logo" aria-label="Findlay & Co home"><img src="logo-icon-light.png" alt="Findlay & Co"></a>
     <ul class="fc-nav-links">
       <li><a href="/#about">About</a></li>
       <li><a href="/#capabilities">What We Do</a></li>
@@ -178,18 +182,8 @@ a{color:var(--accent-deep);}
 
 <header class="art-hero">
   <div class="art-hero-inner">
-    <svg class="hero-svg" viewBox="0 0 210 180" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-      <g fill="#1c3658" stroke="#12B36D" stroke-width="2">
-        <rect x="14" y="140" width="44" height="28" rx="2"/>
-        <rect x="58" y="112" width="44" height="56" rx="2"/>
-        <rect x="102" y="84" width="44" height="84" rx="2"/>
-        <rect x="146" y="56" width="44" height="112" rx="2"/>
-      </g>
-      <path d="M30 126 L176 44" stroke="#12B36D" stroke-width="3" fill="none" stroke-linecap="round"/>
-      <path d="M150 44 H178 V70" stroke="#12B36D" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
     <nav class="crumbs" aria-label="Breadcrumb">
-      <a href="https://findlayandco.co.nz/">Home</a><span>/</span><a href="https://findlayandco.co.nz/insights.html">Insights</a><span>/</span>Getting your first job
+      <a href="https://findlayandco.co.nz/">Home</a><span>/</span><a href="https://findlayandco.co.nz/careers-guides.html">Careers Guides</a><span>/</span>Getting your first job
     </nav>
     <span class="eyebrow">Career Advice</span>
     <h1>How to get your first job in New Zealand</h1>
@@ -218,6 +212,11 @@ a{color:var(--accent-deep);}
   <li>Asking around. A lot of first jobs come from someone who knows someone.</li>
   <li>Walking in and introducing yourself, especially for hospitality and retail.</li>
 </ul>
+<figure class="art-figure">
+  <img src="hero-warehouse-jobs-nz.jpg" alt="Warehouse worker moving palletised freight inside a New Zealand distribution centre" loading="lazy">
+  <figcaption>Entry level areas like warehousing and logistics hire first timers every week and train you on the job.</figcaption>
+</figure>
+
 
 <h2>Step 4: Apply properly</h2>
 <p>Read each advertisement and shape your CV and message to match it. A short, polite cover note that says why you want the job and what you bring will get you noticed. Generic applications get ignored. Targeted ones get a reply.</p>
@@ -234,6 +233,11 @@ a{color:var(--accent-deep);}
 
 <h2>Step 6: Keep going</h2>
 <p>You may hear no a few times. Everyone does. Each application makes you better at it. Stay polite, follow up once, and keep applying. The first yes is the hard one. Once you have a few months of work behind you, the next job comes much easier.</p>
+<figure class="art-figure">
+  <img src="hero-on-the-job-nz.jpg" alt="New Zealand freight worker in a hi-vis vest checking stock against a clipboard at a container yard" loading="lazy">
+  <figcaption>A few months of steady work behind you, and the next job comes much easier.</figcaption>
+</figure>
+
 
 <div class="callout">
   <h2>What employers are really hiring</h2>
@@ -260,7 +264,7 @@ a{color:var(--accent-deep);}
 
 <footer class="fc-footer">
   <div class="fc-footer-inner">
-    <img src="/logo-full-light.png" alt="Findlay & Co">
+    <img src="logo-full-light.png" alt="Findlay & Co">
     <div class="fc-footer-links">
       <a href="/">Home</a>
       <a href="/insights.html">Insights</a>
