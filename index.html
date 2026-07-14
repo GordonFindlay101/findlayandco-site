@@ -40,7 +40,10 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": ["Organization", "ProfessionalService"],
+      "@type": [
+        "Organization",
+        "ProfessionalService"
+      ],
       "@id": "https://findlayandco.co.nz/#org",
       "name": "Findlay & Co",
       "url": "https://findlayandco.co.nz/",
@@ -48,9 +51,25 @@
       "image": "https://findlayandco.co.nz/og-image.jpg",
       "description": "New Zealand consultancy specialising in strategic planning, forecasting and helping businesses scale, with a focus on new products. Delivers workplace training and branded LMS tenancies through Capability Solutions and site access management through SiteKey.",
       "slogan": "Strategy, capability and growth for New Zealand businesses",
-      "areaServed": { "@type": "Country", "name": "New Zealand" },
-      "knowsAbout": ["Strategic planning", "Business forecasting", "Scaling businesses", "New product development", "Workplace training", "Learning management systems", "Site access management", "Health and safety compliance", "NZQA Skills Standards", "MPI Accredited Person training"],
-      "founder": { "@id": "https://findlayandco.co.nz/#gordon" },
+      "areaServed": {
+        "@type": "Country",
+        "name": "New Zealand"
+      },
+      "knowsAbout": [
+        "Strategic planning",
+        "Business forecasting",
+        "Scaling businesses",
+        "New product development",
+        "Workplace training",
+        "Learning management systems",
+        "Site access management",
+        "Health and safety compliance",
+        "NZQA Skills Standards",
+        "MPI Accredited Person training"
+      ],
+      "founder": {
+        "@id": "https://findlayandco.co.nz/#gordon"
+      },
       "contactPoint": {
         "@type": "ContactPoint",
         "email": "gordon@findlayandco.co.nz",
@@ -59,8 +78,18 @@
         "availableLanguage": "English"
       },
       "subOrganization": [
-        { "@type": "Organization", "name": "Capability Solutions", "url": "https://train.capabilitysolutions.co.nz/" },
-        { "@type": "Organization", "name": "SiteKey", "url": "https://sitekey.nz/" }
+        {
+          "@type": "Organization",
+          "@id": "https://capabilitysolutions.co.nz/#org",
+          "name": "Capability Solutions",
+          "url": "https://capabilitysolutions.co.nz/"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://sitekey.nz/#organization",
+          "name": "SiteKey",
+          "url": "https://sitekey.nz/"
+        }
       ]
     },
     {
@@ -68,40 +97,67 @@
       "@id": "https://findlayandco.co.nz/#website",
       "url": "https://findlayandco.co.nz/",
       "name": "Findlay & Co",
-      "publisher": { "@id": "https://findlayandco.co.nz/#org" },
+      "publisher": {
+        "@id": "https://findlayandco.co.nz/#org"
+      },
       "inLanguage": "en-NZ"
     },
     {
       "@type": "Person",
       "@id": "https://findlayandco.co.nz/#gordon",
       "name": "Gordon Findlay",
-      "worksFor": { "@id": "https://findlayandco.co.nz/#org" },
+      "worksFor": {
+        "@id": "https://findlayandco.co.nz/#org"
+      },
       "jobTitle": "Principal Consultant",
-      "knowsAbout": ["Strategic planning", "Forecasting", "Business growth", "New product development", "Workplace training"],
-      "sameAs": ["https://www.linkedin.com/in/gordonfindlaynz/"]
+      "knowsAbout": [
+        "Strategic planning",
+        "Forecasting",
+        "Business growth",
+        "New product development",
+        "Workplace training"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/gordonfindlaynz/"
+      ]
     },
     {
       "@type": "Service",
       "name": "Strategic planning, forecasting and growth consultancy",
       "serviceType": "Business strategy consultancy",
-      "provider": { "@id": "https://findlayandco.co.nz/#org" },
-      "areaServed": { "@type": "Country", "name": "New Zealand" },
+      "provider": {
+        "@id": "https://findlayandco.co.nz/#org"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "New Zealand"
+      },
       "description": "Strategic planning, realistic forecasting and scale-up support for New Zealand businesses, with particular strength in developing and launching new products."
     },
     {
       "@type": "Service",
       "name": "Workplace training and company-branded LMS",
       "serviceType": "Workplace training",
-      "provider": { "@id": "https://findlayandco.co.nz/#org" },
-      "areaServed": { "@type": "Country", "name": "New Zealand" },
+      "provider": {
+        "@id": "https://findlayandco.co.nz/#org"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "New Zealand"
+      },
       "description": "Bespoke workplace training and fully hosted, company-branded learning management systems delivered through Capability Solutions, covering health and safety, machinery operation, procedures and site inductions."
     },
     {
       "@type": "Service",
       "name": "Site access and compliance management",
       "serviceType": "Health and safety compliance",
-      "provider": { "@id": "https://findlayandco.co.nz/#org" },
-      "areaServed": { "@type": "Country", "name": "New Zealand" },
+      "provider": {
+        "@id": "https://findlayandco.co.nz/#org"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "New Zealand"
+      },
       "description": "Site access, inductions, and contractor and visitor management delivered through SiteKey, making health and safety compliance practical for everyday operations."
     },
     {
@@ -109,11 +165,22 @@
       "@id": "https://findlayandco.co.nz/#webpage",
       "url": "https://findlayandco.co.nz/",
       "name": "Findlay & Co | Strategic Planning, Forecasting & Business Growth Consultancy NZ",
-      "isPartOf": { "@id": "https://findlayandco.co.nz/#website" },
-      "about": { "@id": "https://findlayandco.co.nz/#org" },
-      "author": { "@id": "https://findlayandco.co.nz/#gordon" },
+      "isPartOf": {
+        "@id": "https://findlayandco.co.nz/#website"
+      },
+      "about": {
+        "@id": "https://findlayandco.co.nz/#org"
+      },
+      "author": {
+        "@id": "https://findlayandco.co.nz/#gordon"
+      },
       "inLanguage": "en-NZ",
-      "speakable": { "@type": "SpeakableSpecification", "cssSelector": [".fc-faq-answer"] }
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".fc-faq-answer"
+        ]
+      }
     },
     {
       "@type": "FAQPage",
@@ -122,32 +189,50 @@
         {
           "@type": "Question",
           "name": "What does Findlay & Co do?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Findlay & Co is a New Zealand consultancy specialising in strategic planning, forecasting and helping businesses scale, with particular strength in developing and launching new products. We also deliver workplace training and company-branded learning systems through Capability Solutions, and site access and compliance management through SiteKey." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Findlay & Co is a New Zealand consultancy specialising in strategic planning, forecasting and helping businesses scale, with particular strength in developing and launching new products. We also deliver workplace training and company-branded learning systems through Capability Solutions, and site access and compliance management through SiteKey."
+          }
         },
         {
           "@type": "Question",
           "name": "Does Findlay & Co work with businesses across New Zealand?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes. We are a New Zealand based consultancy and work with business owners and leadership teams throughout the country, both on strategy and on the training and compliance their teams need." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We are a New Zealand based consultancy and work with business owners and leadership teams throughout the country, both on strategy and on the training and compliance their teams need."
+          }
         },
         {
           "@type": "Question",
           "name": "How does Findlay & Co help businesses launch new products?",
-          "acceptedAnswer": { "@type": "Answer", "text": "We help you validate the opportunity, model realistic forecasts, and build the operating plan and team capability to take a new product to market, then support you through the scale up." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We help you validate the opportunity, model realistic forecasts, and build the operating plan and team capability to take a new product to market, then support you through the scale up."
+          }
         },
         {
           "@type": "Question",
           "name": "What is the difference between Capability Solutions and SiteKey?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Capability Solutions develops workplace training and fully hosted, company-branded learning management systems. SiteKey manages site access, inductions, and contractor and visitor compliance." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Capability Solutions develops workplace training and fully hosted, company-branded learning management systems. SiteKey manages site access, inductions, and contractor and visitor compliance."
+          }
         },
         {
           "@type": "Question",
           "name": "Can Findlay & Co build custom training for our business?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Through Capability Solutions we build bespoke courses covering everything from specific machinery operation and procedures to site inductions, delivered on your own company-branded training site." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Through Capability Solutions we build bespoke courses covering everything from specific machinery operation and procedures to site inductions, delivered on your own company-branded training site."
+          }
         },
         {
           "@type": "Question",
           "name": "How do I start working with Findlay & Co?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Email Gordon Findlay at gordon@findlayandco.co.nz with a short note about your business and what you are trying to achieve, and we will arrange a conversation." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Email Gordon Findlay at gordon@findlayandco.co.nz with a short note about your business and what you are trying to achieve, and we will arrange a conversation."
+          }
         }
       ]
     }
