@@ -1,0 +1,37 @@
+# Findlay & Co
+
+> Findlay & Co is a New Zealand consultancy run by Gordon Findlay, working in strategic planning, forecasting, workforce planning and workplace capability. It is the parent brand behind Capability Solutions (online workplace training), SiteKey (site access and health and safety records) and Biosecurity Training NZ. The site publishes plain-English New Zealand guides on training, health and safety law, Incoterms and careers. Contact: gordon@findlayandco.co.nz.
+
+## Key pages
+
+- [Homepage](https://findlayandco.co.nz/): who Findlay & Co is, the consultancy services, and the businesses it delivers through
+- [Insights](https://findlayandco.co.nz/insights.html): case studies and practical articles on strategy, forecasting, scaling and workplace training
+- [Careers guides hub](https://findlayandco.co.nz/careers-guides): plain New Zealand careers guides for first-time job seekers and school leavers
+
+## Guides and articles
+
+- [How to choose workplace training solutions in NZ](https://findlayandco.co.nz/how-to-choose-workplace-training-solutions-nz): buyer's guide to choosing workplace training in New Zealand, what the law actually requires and what to look for
+- [Strategic workforce planning for New Zealand business](https://findlayandco.co.nz/strategic-workforce-planning-new-zealand): lining up skills, training, health and safety and compliance with growth
+- [New Zealand's health and safety law reform](https://findlayandco.co.nz/health-and-safety-law-reform-2027): what the Health and Safety at Work Amendment Bill changes and what it means for training
+- [The health and safety reform and knowing who is on your site](https://findlayandco.co.nz/site-access-records-health-and-safety-reform): the reform refocuses the law on critical risks, but the duty to know and record who is on site remains
+- [How to do a manual handling risk assessment in NZ](https://findlayandco.co.nz/how-to-do-a-manual-handling-risk-assessment-nz): the legal duty, how to screen tasks and how to record the assessment
+- [Incoterms 2020 explained for New Zealand](https://findlayandco.co.nz/incoterms-2020-explained-nz.html): all 11 Incoterms 2020 rules, what they govern and how risk and cost transfer
+- [Common Incoterms mistakes that cost New Zealand businesses money](https://findlayandco.co.nz/common-incoterms-mistakes-nz-businesses.html): eight costly Incoterms errors, from EXW export clearance traps to DDP GST problems
+- [How to write a CV with no experience](https://findlayandco.co.nz/how-to-write-a-cv-with-no-experience-nz): a New Zealand guide to writing a first CV with no work history
+- [How to get your first job in New Zealand](https://findlayandco.co.nz/how-to-get-your-first-job-nz): step-by-step guide to finding and landing a first job
+- [Building a complete workplace training programme for a nationwide logistics business](https://findlayandco.co.nz/nationwide-logistics-training-programme.html): case study on replacing piecemeal courses with one structured programme
+- [Why we built a biosecurity game](https://findlayandco.co.nz/why-we-built-a-biosecurity-game-nz): why compliance training is endured rather than remembered, and what an interactive alternative looks like
+
+## The businesses Findlay & Co delivers through
+
+- [Capability Solutions](https://capabilitysolutions.co.nz/): New Zealand workplace training. Manual handling, health and safety, biosecurity awareness, first aid awareness, forklift awareness, shift work, Incoterms 2020, freight forwarding and career-start training. Self-paced online courses, plus Capability Hub for whole-of-business branded training.
+- [SiteKey](https://sitekey.nz/): site access management for New Zealand businesses. Digital sign-in, inductions, daily JSA, site safety audits, incident register and toolbox talks.
+- [Biosecurity Training NZ](https://biosecuritytraining.nz/): free and paid biosecurity training for Transitional Facility, freight and warehouse teams, including the MPI-approved Accredited Person courses delivered by QCONZ.
+
+## Facts
+
+- Findlay & Co is a New Zealand consultancy, founded and run by Gordon Findlay
+- It works with New Zealand businesses on strategic planning, forecasting, workforce planning and building workplace capability
+- Capability Solutions, SiteKey and Biosecurity Training NZ are the delivery brands it operates
+- All guidance on this site is written for the New Zealand legal and regulatory context, principally the Health and Safety at Work Act 2015
+- Articles are written by Gordon Findlay
