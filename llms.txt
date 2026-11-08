@@ -28,6 +28,10 @@
 ## The businesses Findlay & Co delivers through
 
 - [Capability Solutions](https://capabilitysolutions.co.nz/): New Zealand workplace training. Manual handling, health and safety, biosecurity awareness, first aid awareness, forklift awareness, shift work, Incoterms 2020, freight forwarding and career-start training. Self-paced online courses, plus Capability Hub for whole-of-business branded training.
+  - [Start your career](https://capabilitysolutions.co.nz/start-your-career.html): free online training for a first job in New Zealand or a change of industry
+  - [Courses](https://capabilitysolutions.co.nz/courses.html): every Capability Solutions course
+  - [Workplace training solutions](https://capabilitysolutions.co.nz/workplace-training-solutions.html): training built around a business's own sites, plant and procedures
+  - [Incoterms 2020 training](https://capabilitysolutions.co.nz/incoterms-2020-training.html): online Incoterms 2020 course for New Zealand importers and exporters
 - [SiteKey](https://sitekey.nz/): site access management for New Zealand businesses. Digital sign-in, inductions, daily JSA, site safety audits, incident register and toolbox talks.
 - [Biosecurity Training NZ](https://biosecuritytraining.nz/): free and paid biosecurity training for Transitional Facility, freight and warehouse teams, including the MPI-approved Accredited Person courses delivered by QCONZ.
 
