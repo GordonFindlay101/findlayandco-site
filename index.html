@@ -311,7 +311,7 @@ h1, h2, h3 { font-family: 'Cormorant Garamond', Georgia, serif; color: var(--pri
 .fc-card-link { display: inline-flex; align-items: center; gap: 6px; color: var(--primary); font-family: 'Inter', sans-serif; font-weight: 600; font-size: 0.94rem; text-decoration: none; border-bottom: 1.5px solid var(--accent); padding-bottom: 2px; transition: gap 0.2s; }
 .fc-card-link:hover { gap: 11px; }
 .fc-card-links { display: flex; flex-wrap: wrap; gap: 10px 22px; margin-top: auto; }
-.fc-card-body p a { color: #12B36D; text-decoration: none; border-bottom: 1px solid rgba(18,179,109,0.45); }
+.fc-card-body p a { color: #0E9A5D; text-decoration: none; border-bottom: 1px solid rgba(18,179,109,0.45); }
 .fc-card-body p a:hover { border-bottom-color: #12B36D; }
 
 /* DELIVER STRIP */
@@ -322,6 +322,8 @@ h1, h2, h3 { font-family: 'Cormorant Garamond', Georgia, serif; color: var(--pri
 .fc-deliver-item { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.12); border-radius: var(--radius); padding: 26px 24px; border-top: 3px solid var(--accent); }
 .fc-deliver-item h3 { color: var(--accent); font-size: 1.2rem; font-weight: 600; margin-bottom: 8px; }
 .fc-deliver-item p { font-size: 0.97rem; color: rgba(255,255,255,0.82); }
+.fc-deliver-item p a:where(:not([class])) { color: #fff; }
+.fc-deliver-item p a:where(:not([class])):hover { color: #12B36D; }
 
 /* FAQ */
 .fc-faq { background: var(--paper); }
