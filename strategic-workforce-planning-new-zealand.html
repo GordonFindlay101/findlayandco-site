@@ -165,8 +165,8 @@ h1, h2, h3 { font-family: 'Cormorant Garamond', Georgia, serif; color: var(--pri
 .cs-body h3 { font-size: 1.3rem; font-weight: 600; margin: 28px 0 8px; }
 .cs-body ul { margin: 14px 0 14px 22px; }
 .cs-body li { margin: 8px 0; font-size: 1.06rem; }
-.cs-body a { color: var(--accent-deep); font-weight: 500; text-decoration: none; border-bottom: 1px solid rgba(18,179,109,0.4); }
-.cs-body a:hover { border-bottom-color: var(--accent-deep); }
+.cs-body a:not(.fc-btn) { color: var(--accent-deep); font-weight: 500; text-decoration: none; border-bottom: 1px solid rgba(18,179,109,0.4); }
+.cs-body a:not(.fc-btn):hover { border-bottom-color: var(--accent-deep); }
 .cs-body em { color: #6a7783; }
 .cs-note { background: var(--offset); border-left: 3px solid var(--accent); border-radius: var(--radius); padding: 18px 24px; margin: 22px 0; }
 .cs-note p { margin: 6px 0; font-size: 1.02rem; }
@@ -213,6 +213,12 @@ h1, h2, h3 { font-family: 'Cormorant Garamond', Georgia, serif; color: var(--pri
   .cs-hero h1 { font-size: 1.7rem; }
   .cs-body h2 { font-size: 1.45rem; }
 }
+</style>
+<style id="fc-link-style">
+:where(p, li, td, dd) a:where(:not([class])) { color: #142743; text-decoration: underline; text-decoration-color: #12B36D; text-decoration-thickness: 1.5px; text-underline-offset: 3px; transition: color 0.2s; }
+:where(p, li, td, dd) a:where(:not([class])):hover { color: #0E9A5D; }
+.ins-header a:where(:not([class])) { color: #fff; }
+.ins-header a:where(:not([class])):hover { color: #12B36D; }
 </style>
 </head>
 <body>

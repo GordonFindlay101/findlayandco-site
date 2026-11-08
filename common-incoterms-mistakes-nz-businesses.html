@@ -133,7 +133,7 @@
 "name": "What goes wrong when the contract, invoice and shipping documents disagree?",
 "acceptedAnswer": {
 "@type": "Answer",
-"text": "A bank reviewing a documentary credit checks every document for consistency. If the contract says CIF but the invoice says CFR, or the bill of lading and the insurance certificate name different ports of loading, the bank can reject the presentation under UCP 600. You do not get paid until the documents are corrected and resubmitted, which means delay, banking fees and the risk that a time sensitive letter of credit expires."
+"text": "A bank reviewing a documentary credit checks every document for consistency. If the credit calls for CIF but the invoice says CFR, or the bill of lading and the insurance certificate name different ports of loading, the bank can refuse the presentation under UCP 600. You do not get paid until the documents are corrected and resubmitted, which means delay, banking fees and the risk that a time sensitive letter of credit expires."
 }
 }
 ]
@@ -273,6 +273,12 @@ a{color:var(--accent-deep);}
 .cta-band{padding:30px 24px;}
 .fc-btn-ghost{margin-left:0;margin-top:10px;}
 }
+</style>
+<style id="fc-link-style">
+:where(p, li, td, dd) a:where(:not([class])) { color: #142743; text-decoration: underline; text-decoration-color: #12B36D; text-decoration-thickness: 1.5px; text-underline-offset: 3px; transition: color 0.2s; }
+:where(p, li, td, dd) a:where(:not([class])):hover { color: #0E9A5D; }
+.ins-header a:where(:not([class])) { color: #fff; }
+.ins-header a:where(:not([class])):hover { color: #12B36D; }
 </style>
 </head>
 <body>
@@ -415,7 +421,7 @@ a{color:var(--accent-deep);}
 <h3>The mistake</h3>
 <p>The Incoterm in the contract does not match the term on the commercial invoice, the bill of lading, the insurance certificate or the letter of credit. The set looks complete, but the documents quietly contradict each other: the contract says CIF, the invoice says CFR, or the bill of lading and the insurance certificate name different ports of loading.</p>
 <h3>Why it costs money</h3>
-<p>When a bank reviews a documentary credit presentation, it checks every document for consistency. One discrepancy and the presentation is rejected under UCP 600, and the seller does not get paid until it is corrected and resubmitted. That means delay, banking fees, and the real risk that a time sensitive letter of credit expires before the fix is in. Most of these contradictions are administrative errors, not fraud, which is exactly why they slip through.</p>
+<p>When a bank examines a documentary credit presentation, it checks the documents against the credit and against each other. It does not see the sales contract. Under UCP 600 one discrepancy entitles the bank to refuse the presentation, and the seller does not get paid until the documents are corrected or the buyer waives the discrepancy. That means delay, banking fees, and the real risk that a time sensitive letter of credit expires before the fix is in. Most of these contradictions are administrative errors, not fraud, which is exactly why they slip through.</p>
 <h3>The fix</h3>
 <p>Run a four step consistency check before the documents go anywhere. Does the Incoterm on the invoice match the contract? Does the bill of lading port of loading match the invoice and contract? Does the insurance certificate voyage match the bill of lading? Are the insurance clauses consistent with the contracted term? The check takes five minutes and removes most rejections.</p>
 
@@ -442,10 +448,10 @@ a{color:var(--accent-deep);}
 </div>
 
 <div class="cta-band">
-<h2>An Incoterms course for New Zealand businesses is coming</h2>
-<p>Findlay and Co runs its training through Capability Solutions, our workplace training arm. We are building a practical Incoterms 2020 course written for New Zealand importers, exporters and freight and operations teams, with the cost and risk transfer points, the documents, and the New Zealand customs and GST detail worked through in plain language. Register your interest and we will let you know the moment it opens. Want the rules side by side? See our <a href="https://findlayandco.co.nz/incoterms-2020-rules-quick-reference.html">quick reference to the 11 Incoterms 2020 rules for New Zealand trade</a>. New to freight and logistics? Read our guide on <a href="https://biosecuritytraining.nz/articles/how-to-start-a-career-in-freight-forwarding-new-zealand.html">how to start a career in freight forwarding in New Zealand</a>.</p>
-<a href="mailto:Gordon@findlayandco.co.nz?subject=Register%20interest:%20Incoterms%20course" class="fc-btn fc-btn-accent">Register your interest</a>
-<a href="https://capabilitysolutions.co.nz/incoterms-2020-training.html" class="fc-btn fc-btn-ghost" target="_blank" rel="noopener">See the Incoterms 2020 course</a>
+<h2>An Incoterms 2020 course for New Zealand businesses</h2>
+<p>Findlay and Co runs its training through Capability Solutions, our workplace training arm. Its online Incoterms 2020 course is written for New Zealand importers, exporters and freight and operations teams. Want the rules side by side? See our <a href="https://findlayandco.co.nz/incoterms-2020-rules-quick-reference.html">quick reference to the 11 Incoterms 2020 rules for New Zealand trade</a>. New to freight and logistics? Read our guide on <a href="https://biosecuritytraining.nz/articles/how-to-start-a-career-in-freight-forwarding-new-zealand.html">how to start a career in freight forwarding in New Zealand</a>.</p>
+<a href="https://capabilitysolutions.co.nz/incoterms-2020-training.html" class="fc-btn fc-btn-accent" target="_blank" rel="noopener">See the Incoterms 2020 course</a>
+<a href="https://capabilitysolutions.co.nz/" class="fc-btn fc-btn-ghost" target="_blank" rel="noopener">See Capability Solutions</a>
 <span class="cta-note">Capability Solutions is the Findlay and Co training business. The course library is at capabilitysolutions.co.nz.</span>
 </div>
 
@@ -458,7 +464,7 @@ a{color:var(--accent-deep);}
 <details class="faq-item"><summary>Do Incoterms decide when ownership of the goods passes to me?</summary><div class="faq-answer"><p>No. Incoterms govern delivery, risk transfer and cost allocation only. They say nothing about when title or ownership passes, payment terms, breach remedies, product quality or force majeure. In New Zealand, the passing of property is governed by the contract and the Contracts and Commercial Law Act 2017. Your Incoterm is one clause in your contract, not the whole agreement.</p></div></details>
 <details class="faq-item"><summary>Why does the named place matter in an Incoterm?</summary><div class="faq-answer"><p>The named place is what turns an abstract rule into an enforceable term. FOB with no port is ambiguous: which port defines the risk transfer point? A vague named place creates disputes that a lawyer on the other side can exploit. State the term, a specific named place, and the version year, for example FCA Yantian Container Terminal Shenzhen, INCOTERMS 2020.</p></div></details>
 <details class="faq-item"><summary>Does Incoterms 2020 differ from Incoterms 2010?</summary><div class="faq-answer"><p>Yes, in material ways. CIP now requires Institute Cargo Clauses (A) all risks insurance as the minimum, FCA can now generate an on board bill of lading for letter of credit transactions, and DPU replaced the old DAT. If you leave the year off your contract, a court or arbitrator may have to decide which version applies. Always cite the year, for example CIF Auckland, INCOTERMS 2020.</p></div></details>
-<details class="faq-item"><summary>What goes wrong when the contract, invoice and shipping documents disagree?</summary><div class="faq-answer"><p>A bank reviewing a documentary credit checks every document for consistency. If the contract says CIF but the invoice says CFR, or the bill of lading and the insurance certificate name different ports of loading, the bank can reject the presentation under UCP 600. You do not get paid until the documents are corrected and resubmitted, which means delay, banking fees and the risk that a time sensitive letter of credit expires.</p></div></details>
+<details class="faq-item"><summary>What goes wrong when the contract, invoice and shipping documents disagree?</summary><div class="faq-answer"><p>A bank reviewing a documentary credit checks every document for consistency. If the credit calls for CIF but the invoice says CFR, or the bill of lading and the insurance certificate name different ports of loading, the bank can refuse the presentation under UCP 600. You do not get paid until the documents are corrected and resubmitted, which means delay, banking fees and the risk that a time sensitive letter of credit expires.</p></div></details>
 
 </section>
 

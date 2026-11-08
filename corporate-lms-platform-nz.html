@@ -281,6 +281,12 @@ h1, h2, h3 { font-family: 'Cormorant Garamond', Georgia, serif; color: var(--pri
   ]
 }
 </script>
+<style id="fc-link-style">
+:where(p, li, td, dd) a:where(:not([class])) { color: #142743; text-decoration: underline; text-decoration-color: #12B36D; text-decoration-thickness: 1.5px; text-underline-offset: 3px; transition: color 0.2s; }
+:where(p, li, td, dd) a:where(:not([class])):hover { color: #0E9A5D; }
+.ins-header a:where(:not([class])) { color: #fff; }
+.ins-header a:where(:not([class])):hover { color: #12B36D; }
+</style>
 </head>
 <body>
 
