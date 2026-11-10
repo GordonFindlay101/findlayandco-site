@@ -36,7 +36,10 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": ["Organization", "ProfessionalService"],
+      "@type": [
+        "Organization",
+        "ProfessionalService"
+      ],
       "@id": "https://findlayandco.co.nz/#org",
       "name": "Findlay & Co",
       "url": "https://findlayandco.co.nz/",
@@ -47,7 +50,9 @@
       "@id": "https://findlayandco.co.nz/#gordon",
       "name": "Gordon Findlay",
       "jobTitle": "Principal Consultant",
-      "worksFor": { "@id": "https://findlayandco.co.nz/#org" },
+      "worksFor": {
+        "@id": "https://findlayandco.co.nz/#org"
+      },
       "sameAs": [
         "https://www.linkedin.com/in/gordonfindlaynz/"
       ]
@@ -57,8 +62,12 @@
       "@id": "https://findlayandco.co.nz/site-access-records-health-and-safety-reform#webpage",
       "url": "https://findlayandco.co.nz/site-access-records-health-and-safety-reform",
       "name": "The Health and Safety Reform and Knowing Who's on Your Site",
-      "isPartOf": { "@id": "https://findlayandco.co.nz/#website" },
-      "author": { "@id": "https://findlayandco.co.nz/#gordon" },
+      "isPartOf": {
+        "@id": "https://findlayandco.co.nz/#website"
+      },
+      "author": {
+        "@id": "https://findlayandco.co.nz/#gordon"
+      },
       "inLanguage": "en-NZ"
     },
     {
@@ -66,23 +75,52 @@
       "headline": "The Health and Safety Reform and Knowing Who's on Your Site",
       "description": "The reform refocuses the law on critical risks, but the duty to know and record who is on your site does not go away. Why site access records still matter for NZ businesses, and how sites keep them without clipboards.",
       "image": "https://findlayandco.co.nz/cs-electives.jpg",
-      "author": { "@id": "https://findlayandco.co.nz/#gordon" },
-      "publisher": { "@id": "https://findlayandco.co.nz/#org" },
+      "author": {
+        "@id": "https://findlayandco.co.nz/#gordon"
+      },
+      "publisher": {
+        "@id": "https://findlayandco.co.nz/#org"
+      },
       "datePublished": "2026-07-02",
-      "dateModified": "2026-07-02",
-      "mainEntityOfPage": { "@id": "https://findlayandco.co.nz/site-access-records-health-and-safety-reform#webpage" },
+      "dateModified": "2026-11-11",
+      "mainEntityOfPage": {
+        "@id": "https://findlayandco.co.nz/site-access-records-health-and-safety-reform#webpage"
+      },
       "articleSection": "Health & Safety",
       "keywords": "site access management, contractor compliance, Health and Safety at Work Act, WorkSafe audit, QR site sign-in, evacuation list",
-      "about": [ { "@id": "https://sitekey.nz/#software" } ],
-      "mentions": [ { "@id": "https://sitekey.nz/#software" } ],
+      "about": [
+        {
+          "@id": "https://sitekey.nz/#software"
+        }
+      ],
+      "mentions": [
+        {
+          "@id": "https://sitekey.nz/#software"
+        }
+      ],
       "inLanguage": "en-NZ"
     },
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://findlayandco.co.nz/" },
-        { "@type": "ListItem", "position": 2, "name": "Insights", "item": "https://findlayandco.co.nz/insights" },
-        { "@type": "ListItem", "position": 3, "name": "The health and safety reform and knowing who's on your site", "item": "https://findlayandco.co.nz/site-access-records-health-and-safety-reform" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://findlayandco.co.nz/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Articles",
+          "item": "https://findlayandco.co.nz/insights"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "The health and safety reform and knowing who's on your site",
+          "item": "https://findlayandco.co.nz/site-access-records-health-and-safety-reform"
+        }
       ]
     },
     {
@@ -94,7 +132,7 @@
           "name": "Does the Health and Safety at Work Act require site access records?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The Health and Safety at Work Act 2015 requires a business to identify and manage risks to anyone on its site, including visitors and contractors. Keeping an accurate record of who is on site is a practical part of meeting that duty of care, and it is what WorkSafe looks for in an audit or after an incident. The 2026 reform sharpens the focus on critical risks but does not remove this underlying duty."
+            "text": "The Act requires a business to identify and manage risks to anyone on its site, including visitors and contractors. Keeping an accurate record of who is on site is a practical part of meeting that duty of care, and it is what WorkSafe looks for in an audit or after an incident. The 2026 reform sharpens the focus on critical risks but does not remove this underlying duty."
           }
         },
         {
@@ -102,7 +140,7 @@
           "name": "Does the health and safety reform change site access obligations?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The reform refocuses the system on critical risks and lightens some compliance for small businesses, but the core duty to manage risks to people on site and to be able to show who was there does not change. On construction, industrial and logistics sites, contractor access, inductions and plant are clearly in critical-risk territory, so site access control remains central."
+            "text": "The reform refocuses the system on critical risks and lightens some compliance for small businesses, but the core duty to manage risks to people on site and to show who was there does not change. On construction, industrial and logistics sites, contractor access, inductions and plant are clearly in critical-risk territory, so site access control stays central."
           }
         },
         {
@@ -131,8 +169,14 @@
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "Web",
       "description": "New Zealand site access and visitor management software: QR check-in, contractor compliance gates, live evacuation lists and training verification, built for the Health and Safety at Work Act 2015.",
-      "offers": { "@type": "Offer", "price": "30", "priceCurrency": "NZD" },
-      "sameAs": [ "https://www.linkedin.com/company/sitekey/" ]
+      "offers": {
+        "@type": "Offer",
+        "price": "30",
+        "priceCurrency": "NZD"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/sitekey/"
+      ]
     }
   ]
 }
@@ -239,7 +283,7 @@ h1, h2, h3 { font-family: 'Cormorant Garamond', Georgia, serif; color: var(--pri
       <li><a href="/#about">About</a></li>
       <li><a href="/#capabilities">What We Do</a></li>
       <li><a href="/#deliver">Training</a></li>
-      <li><a href="https://findlayandco.co.nz/insights.html">Insights</a></li>
+      <li><a href="https://findlayandco.co.nz/insights.html">Articles</a></li>
       <li><a href="/#contact">Contact</a></li>
     </ul>
   </div>
@@ -247,7 +291,7 @@ h1, h2, h3 { font-family: 'Cormorant Garamond', Georgia, serif; color: var(--pri
 
 <header class="cs-hero">
   <div class="cs-hero-inner">
-    <nav class="cs-breadcrumb"><a href="/">Home</a> &rsaquo; <a href="https://findlayandco.co.nz/insights.html">Insights</a> &rsaquo; Site access and the H&amp;S reform</nav>
+    <nav class="cs-breadcrumb"><a href="/">Home</a> &rsaquo; <a href="https://findlayandco.co.nz/insights.html">Articles</a> &rsaquo; Site access and the H&amp;S reform</nav>
     <span class="cs-kicker">Health &amp; Safety</span>
     <h1>The health and safety reform refocuses on critical risks. You still have to know who's on your site.</h1>
     <p class="cs-lead">The new law lightens some compliance, but one duty is not going anywhere: being able to show who was on your site, that they were inducted, and that you could account for everyone in an emergency.</p>
@@ -290,7 +334,7 @@ h1, h2, h3 { font-family: 'Cormorant Garamond', Georgia, serif; color: var(--pri
   <p>SiteKey keeps a <a href="https://sitekey.nz/site-access-software-comparison-nz.html" target="_blank" rel="noopener">comparison of the New Zealand site access systems</a>, built from each vendor&rsquo;s own published figures with the date they were read.</p>
 
   <h2>What this means for your site</h2>
-  <p>The reform is a sensible prompt to focus your effort where serious harm actually happens. For most operational sites, one of those places is the front gate. Knowing who is on your site, confirming they are inducted, and being able to prove both is not the part of health and safety the reform makes optional. It is exactly the part it wants you to get right.</p>
+  <p>The reform is a sensible prompt to focus your effort where serious harm happens. For most operational sites, one of those places is the front gate. Knowing who is on your site, confirming they are inducted, and being able to prove both is not the part of health and safety the reform makes optional. It is exactly the part it wants you to get right.</p>
 
   <h2>Common questions</h2>
   <div class="cs-faq">
@@ -327,7 +371,7 @@ h1, h2, h3 { font-family: 'Cormorant Garamond', Georgia, serif; color: var(--pri
     <img src="/logo-full-light.png" alt="Findlay & Co">
     <div class="fc-footer-links">
       <a href="/">Home</a>
-      <a href="https://findlayandco.co.nz/insights.html">Insights</a>
+      <a href="https://findlayandco.co.nz/insights.html">Articles</a>
       <a href="https://capabilitysolutions.co.nz/" target="_blank" rel="noopener">Capability Solutions</a>
       <a href="https://sitekey.nz/" target="_blank" rel="noopener">SiteKey</a>
       <a href="https://www.linkedin.com/in/gordonfindlaynz/" target="_blank" rel="noopener">LinkedIn</a>
