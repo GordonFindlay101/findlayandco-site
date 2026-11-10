@@ -287,6 +287,8 @@ h1, h2, h3 { font-family: 'Cormorant Garamond', Georgia, serif; color: var(--pri
 .ins-header a:where(:not([class])) { color: #fff; }
 .ins-header a:where(:not([class])):hover { color: #12B36D; }
 </style>
+<script>document.documentElement.classList.add("fa-js");</script>
+<link rel="stylesheet" href="/fc-article.css">
 </head>
 <body>
 
@@ -333,6 +335,17 @@ h1, h2, h3 { font-family: 'Cormorant Garamond', Georgia, serif; color: var(--pri
     <li>Totara through a partner costs about $9,800 to $50,800 in the first year, including onboarding.</li>
     <li>A software developer quotes $89,000 to $142,500 to build a first version of a custom LMS.</li>
   </ul>
+  <div class="fa-widget">
+    <h3>First year cost, side by side</h3>
+    <p class="fa-sub">The figures above, drawn to scale. Where a range is quoted, the bar runs to the top of the range.</p>
+    <div class="fa-bars">
+      <div class="fa-bar"><span>Custom build by a developer</span><span class="track"><span class="fill hi" data-w="100"></span></span><span class="val">$89,000 to $142,500</span></div>
+      <div class="fa-bar"><span>Totara through a partner</span><span class="track"><span class="fill hi" data-w="35.6"></span></span><span class="val">$9,800 to $50,800</span></div>
+      <div class="fa-bar"><span>iSpring LMS, 300 users</span><span class="track"><span class="fill hi" data-w="20.1"></span></span><span class="val">about $28,590</span></div>
+      <div class="fa-bar"><span>TalentLMS Grow, 500 users</span><span class="track"><span class="fill hi" data-w="3.4"></span></span><span class="val">about $4,900</span></div>
+      <div class="fa-bar"><span>Findlay &amp; Co, plus GST</span><span class="track"><span class="fill lo" data-w="1.7"></span></span><span class="val">$2,420</span></div>
+    </div>
+  </div>
   <p>Ours is $2,420 in the first year and $1,920 a year after that, plus GST. The full comparison and its sources are in the Capability Solutions guide to <a href="https://capabilitysolutions.co.nz/lms-platform-cost-nz.html" target="_blank" rel="noopener">what an LMS platform costs New Zealand corporates and PTEs</a>.</p>
 
   <h2>Built to your requirements</h2>
@@ -388,5 +401,6 @@ h1, h2, h3 { font-family: 'Cormorant Garamond', Georgia, serif; color: var(--pri
   </div>
 </footer>
 
+<script src="/fc-article.js" defer></script>
 </body>
 </html>
